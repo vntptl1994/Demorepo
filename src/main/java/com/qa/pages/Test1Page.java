@@ -10,6 +10,9 @@ public class Test1Page extends TestBase {
    public String verifytitle(){
        return driver.getTitle();
    }
+   public void login(){
+       System.out.println("login to app");
+   }
 
 
 
